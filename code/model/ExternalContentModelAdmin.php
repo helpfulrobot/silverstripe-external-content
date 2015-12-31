@@ -4,10 +4,10 @@
 class ExternalContentModelAdmin extends ModelAdmin {
 
 
-	static $url_segment = 'file-system';
+    static $url_segment = 'file-system';
 
-	public static $managed_models = 'FileSystemContentSource';
-	
+    public static $managed_models = 'FileSystemContentSource';
+    
 }
 
 */
